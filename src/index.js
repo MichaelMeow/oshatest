@@ -7,10 +7,13 @@ import * as serviceWorker from './serviceWorker';
 import ScrollToTop from './ScrollToTop';
 
 ReactDOM.render((
+  <>
+  <h1>test</h1>
   <BrowserRouter>
     <ScrollToTop />
     <App />
   </BrowserRouter>
+  </>
 ), document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
